@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Running Generator</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+Thai:wght@400;700;900&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- INPUT -->
+
+  <div class="card">
+
+    <div class="title">
+      Running Generator
+    </div>
+
+    <div class="input-group">
+      <label>Distance</label>
+      <input type="text" id="distance" value="5.01">
+    </div>
+
+    <div class="input-group">
+      <label>Pace</label>
+      <input type="text" id="pace" value="5'35''">
+    </div>
+
+    <div class="input-group">
+      <label>Time</label>
+      <input type="text" id="time" value="28:03">
+    </div>
+
+    <div class="input-group">
+      <label>Calories</label>
+      <input type="text" id="calories" value="258">
+    </div>
+
+    <div class="input-group">
+      <label>Language</label>
+
+      <select id="language">
+        <option value="th">ไทย</option>
+        <option value="en">English</option>
+        <option value="kr">한국어</option>
+      </select>
+    </div>
+
+    <button class="btn" onclick="generateResult()">
+      Generate
+    </button>
+
+  </div>
+
+  <!-- RESULT -->
+
+  <div class="result">
+
+    <div class="distance" id="showDistance">
+      5.01
+    </div>
+
+    <div class="distance-text" id="distanceText">
+      กิโลเมตร
+    </div>
+
+    <div class="stats">
+
+      <div class="stat">
+        <div class="stat-value" id="showPace">
+          5'35''
+        </div>
+
+        <div class="stat-label" id="paceText">
+          เพซ
+        </div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-value" id="showTime">
+          28:03
+        </div>
+
+        <div class="stat-label" id="timeText">
+          เวลา
+        </div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-value" id="showCalories">
+          258
+        </div>
+
+        <div class="stat-label" id="caloriesText">
+          แคลอรี่
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
