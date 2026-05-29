@@ -1,5 +1,5 @@
 // ⚠️ เจน API KEY มาจาก Google AI Studio แล้วใส่ตรงนี้ได้เลยครับ
-const GEMINI_API_KEY = "ใส่_GEMINI_API_KEY_ตรงนี้";
+const GEMINI_API_KEY = "AQ.Ab8RN6Kx7bZdy5jX_vafWqTMomg1CU8EM8ZkRlR0ydc0At-OQA";
 
 let targetCalories = 2000;
 let consumedCalories = 0;
