@@ -1,0 +1,16 @@
+{
+  "short_name": "MacroTrack",
+  "name": "MacroTrack AI: Food Scanner",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2615/2615075.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#000000",
+  "theme-color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+}
